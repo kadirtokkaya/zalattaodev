@@ -1,0 +1,161 @@
+body {
+    background-image: url(resim/bg.jpg);
+}
+
+.ana {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.logo {
+    background-image: url(resim/logo.png);
+    width: 189px;
+    height: 150px;
+    float: left;
+}
+
+.menu {
+    background-image: url(resim/bgMenu.png);
+    width: 790px;
+    height: 40px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 10px;
+}
+
+.sil {
+    clear: both;
+}
+
+.menuyeri {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuyeri li {
+    float: left;
+}
+
+.menuyeri li a {
+    width: 92px;
+    height: 40px;
+    margin-left: 20px;
+    display: block;
+    text-decoration: none;
+    color: #077936;
+    line-height: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.menuyeri li a:hover {
+    color: red;
+}
+
+.banner {
+    background-image: url(resim/banner.jpg);
+    width: 980px;
+    height: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bgslide {
+    background-image: url(resim/bgSlide.png);
+    width: 980px;
+    height: 12px;
+    margin-left: 10px;
+}
+
+.divider {
+    background-image: url(resim/divider.png);
+    width: 980px;
+    height: 26px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#icerik {
+    height: 220px;
+}
+
+#kutu1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    background-color: #E8F5FF;
+    box-sizing: border-box;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#baslik {
+    width: 290px;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px dashed black;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#paraf {
+    width: 290px;
+    height: auto;
+    margin: auto;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+#kutu2 {
+    background-image: url(resim/urun.png);
+    width: 300px;
+    height: 200px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#kutu3 {
+    background-image: url(resim/franchising.png);
+    width: 340px;
+    height: 200px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+footer {
+    margin-top: 10px;
+    margin-left: 10px;
+}
